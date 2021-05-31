@@ -19,3 +19,7 @@ class TestFizzBuzz(unittest.TestCase):
         for i in [15, 30, 75]:
             print('testing', i)
             assert fizzbuzz(i) == 'FizzBuzz'
+
+
+if __name__ == "__main__":
+    unittest.main()
